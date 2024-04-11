@@ -1,10 +1,10 @@
-{% extends 'main.html' %}
-{% block content %}
-{% if message %}
-    <div class="alert alert-danger">{{ message }}</div>
-{% endif %}
-<style>
-body {
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<body>
+    <div class="alert alert-danger"></div>
+<style> 
+{
     font-family: Cambria;
     height: 100%;
     background-image: linear-gradient(#0459ba, #7ecee6);
@@ -12,9 +12,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-h1 {
+<h1>{
   text-align: center;
 }
+
 </style>
 <div class="container">
     <div class="card card-body" style="border: 1px solid black; box-shadow: 0 0 10px black; background-color: #7ecee6">
@@ -149,4 +150,5 @@ h1 {
         </div>
     </div>
 </div>
-{% endblock %}
+</body>
+</head>
